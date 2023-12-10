@@ -149,6 +149,7 @@ def order_book(orders, book, stock_name):
 # Test Data Persistence
 
 def generate_csv():
+    #method would not generate the CSV file. Manually added the CSV file from folder
     """ Generate a CSV of order history. """
     with open('test.csv', 'wb') as f:
         writer = csv.writer(f)
